@@ -1,6 +1,6 @@
 import cx_Oracle
 
-conn = cx_Oracle.connect('crypto/crypto@//localhost:1521/xe')
+conn = cx_Oracle.connect('username/password@//localhost:1521/xe')
 conn.commit()
 
     #conn.cur.execute("CREATE TABLE Account (ACCOUNTUSERNAME	VARCHAR2(15) NOT NULL,ACCOUNTPASSWORD VARCHAR2(15) NOT NULL,AUTOFILLING	NUMBER(1,0)	NOT NULL,AUTOGENERATING	NUMBER(1,0) NOT NULL,PRIMARY KEY (ACCOUNTUSERNAME))")
